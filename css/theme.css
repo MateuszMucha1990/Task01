@@ -1,0 +1,69 @@
+
+h1{
+    color: black;
+    margin-left: 20px;
+}
+.container{
+    position: relative;
+    width: auto;
+}
+hr{
+    border-bottom: 1px solid rgb(209, 206, 206);
+    margin:  auto  20px
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.description{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: -20px;
+}
+
+
+.price, .price_new, .price_old{
+    font-size: 20px;
+    font-weight: 600;
+}
+.price_new{
+    color: red;
+}
+.price_old{
+    text-decoration-line: line-through;
+}
+.value{
+    display: flex;
+    gap: 10px;
+}
+
+
+.controls img{
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.controls img:hover{
+    background-color: rgb(184, 184, 184);
+}
+.controls{
+    position: absolute;
+    z-index: 99;
+    top: 47%;
+    cursor: pointer;
+    list-style: none;
+}
+
+.controls,li.prev{
+position: absolute;
+    left: 10px;
+}
+.controls,li.next{
+    position: absolute;
+    right: 30px;
+}
